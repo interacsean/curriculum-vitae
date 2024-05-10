@@ -13,7 +13,7 @@ export const ItemCtnr = styled.div(({ theme }) => ({
   marginBlockEnd: theme.space(1)
 }));
 
-export const Degree = Heading;
+export const Degree = styled(Heading).attrs({ h: 4, noMargin: true, fontSize: 1 })({});
 
 export const Institution = styled(P).attrs({ noMargin: true })(({ theme }) => ({
   color: theme.palette.neutral[100],

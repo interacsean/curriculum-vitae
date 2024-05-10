@@ -1,6 +1,7 @@
 import { ComponentProps } from "react";
 import styled from "styled-components";
 import { Heading, P } from "components/Text";
+import List, { ListItem } from "components/List";
 
 export const WorkExperienceContainer = styled.div({});
 
@@ -8,15 +9,7 @@ export const ExperienceEntryContainer = styled.div(({ theme }) => ({
   marginBottom: theme.space(3)
 }));
 
-const JobTitleDefault = (props: ComponentProps<typeof Heading>) => (
-  <Heading h="3" {...props} />
-);
-
-export const JobTitle = styled(JobTitleDefault)(({ theme }) => ({
-  fontSize: theme.fontSize(1),
-  marginTop: 0,
-  marginBottom: 0
-}));
+export const JobTitle = styled(Heading).attrs({ h: 4, noMargin: true, fontSize: 1 })({});
 
 export const WorkPlace = styled(P).attrs({ noMargin: true })(({ theme }) => ({
   color: theme.palette.neutral[100],
@@ -42,15 +35,12 @@ export const Line2 = styled(Line1)({
   alignItems: "flex-start"
 });
 
-export const Highlights = styled.ul(({ theme }) => ({
+export const Highlights = styled(List)(({ theme }) => ({
   marginBlockStart: "0.25em",
   marginBlockEnd: "0.5em",
-  paddingInlineStart: theme.space(3)
 }));
 
-export const Hi = styled.li(({ theme }) => ({
-  fontWeight: theme.fontWeight.light
-}));
+export const Hi = ListItem;
 
 export const TechCategories = styled.div(({ theme }) => ({
   display: "flex",

@@ -14,9 +14,9 @@ const experience: Experience[] = [
     workPlace: "IAG",
     workCapacity: "Full-time (Contract)",
     highlights: [
-      "Technical design, solution architecture, dependent systems requirements analysis",
-      "Estimated feature size and advised on build sequencing"
-      // "Educated squads on organisation-led "
+      "Technical design, solution architecture, dependent systems requirements handover",
+      "Estimated feature size and advised on build sequencing",
+      "Interfaced with Business Analysts, Delivery Leads, Product Owners, UX"
     ],
     dateRange: "Apr 2022–Current",
     technologies: [
@@ -36,7 +36,7 @@ const experience: Experience[] = [
     highlights: [
       "Led and oversaw development of hybrid mobile app",
       "Scoped requirements and solution architecture",
-      "Sprint management, peer-review code, app store deployment"
+      "Sprint management, peer-reviewed developer code, app store deployment"
     ],
     dateRange: "Jul 2021–Mar 2022 (8 mo)",
     technologies: [
@@ -82,7 +82,7 @@ const experience: Experience[] = [
     workCapacity: "Full-time",
     dateRange: "Jan 2018–Dec 2019 (2 yr)",
     highlights: [
-      "Consulted with clients to determine business requirements and technical design",
+      "Consulted with clients on business requirements and develop technical design",
       "Conducted developer recruitment and onboarding processes",
       "Led team of 5 devs, including agile ceremonies, PRs",
       "Introduced TypeScript, code auto-formatter, pre-commit hooks"
@@ -105,8 +105,8 @@ const experience: Experience[] = [
     workCapacity: "Part-time (contract)",
     dateRange: "Oct 2015–Dec 2017 (2 yr)",
     highlights: [
-      "Developed Gallery Guide app for web and native, using Ionic (Angular + Cordova)",
-      "Integrated WordPress site with external APIs",
+      "Developed Gallery Guide app for web and native using Ionic (Angular + Cordova)",
+      "Integrated public WordPress site with external APIs for online catalogue",
       "Automated workflow by connecting in-gallery info-screens to exhibition data",
       "Reduced load time from 15+ secs to < 2 secs on booking pages",
       "Consulted on system architecture, deployment workflow, diagnosis of site performance issues"
@@ -143,7 +143,8 @@ const experience: Experience[] = [
     workPlaceLink: "https://www.bloomtools.com/",
     dateRange: "2006–2008 (2 yrs)",
     highlights: [
-      "Developed libraries for proprietary CMS and Email marketing platform, Payment gateway integration"
+      "Developed libraries for proprietary CMS and Email marketing platform",
+      "Payment gateway integration for client projects"
     ],
     technologies: ["PHP", "MySQL", "JavaScript", "REST APIs", "PayPal APIs"]
   }

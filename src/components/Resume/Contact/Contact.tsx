@@ -19,13 +19,13 @@ export default function Contact({ contactDetails }: Props) {
         <Icon>
           <PhoneOutlined />
         </Icon>
-        <ContactDetail as="tel">{contactDetails.phone}</ContactDetail>
+        <ContactDetail>{contactDetails.phone}</ContactDetail>
       </ContactWrap>
       <ContactWrap>
         <Icon>
           <MailOutlined />
         </Icon>
-        <ContactDetail as="email">{contactDetails.email}</ContactDetail>
+        <ContactDetail>{contactDetails.email}</ContactDetail>
       </ContactWrap>
       <ContactWrap>
         <Icon>

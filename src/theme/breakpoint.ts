@@ -1,11 +1,11 @@
 enum breakpoint {
-  mobileS = 320,
-  mobileM = 375,
-  mobileL = 425,
-  tablet = 768,
-  laptop = 1024,
-  laptopL = 1440,
-  desktop = 2560
+  MobileS = 320,
+  MobileM = 375,
+  MobileL = 425,
+  Tablet = 768,
+  Laptop = 1024,
+  LaptopL = 1440,
+  Desktop = 2560
 }
 
 export default breakpoint;

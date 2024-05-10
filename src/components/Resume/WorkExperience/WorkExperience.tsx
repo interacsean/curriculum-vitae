@@ -40,15 +40,15 @@ function ExperienceEntry({ experience: exp }: { experience: Experience }) {
       </Line2>
       <Highlights>
         {exp.highlights.map((highlight, i) => (
-          <Hi>{highlight}</Hi>
+          <Hi key={highlight}>{highlight}</Hi>
         ))}
       </Highlights>
       <TechCategories>
         {Object.keys(nestedTech).map((techName) => (
-          <Tech>
+          <Tech key={techName}>
             {!!techName.length && <P noMargin>{techName}:</P>}
             {nestedTech[techName].map((tech, i) => (
-              <TechItem>{tech}</TechItem>
+              <TechItem key={tech}>{tech}</TechItem>
             ))}
           </Tech>
         ))}
@@ -64,7 +64,7 @@ export default function WorkExperience({ experience, filter }: Props) {
       {filteredExperience.map((exp, i) => (
         <ExperienceEntry
           experience={exp}
-          key={`${i}-${exp.jobTitle}-${exp.workPlace}`}
+          key={`${exp.jobTitle}-${exp.workPlace}`}
         />
       ))}
     </WorkExperienceContainer>

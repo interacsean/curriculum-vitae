@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
-import { TMPLContainer } from "./TMPL.styles";
+import { TmplContainer } from "./Tmpl.styles";
 
-export default function TMPL({ children }: PropsWithChildren<{}>) {
-  return <TMPLContainer>{children}</TMPLContainer>;
+export default function Tmpl({ children }: PropsWithChildren<{}>) {
+  return <TmplContainer>{children}</TmplContainer>;
 }

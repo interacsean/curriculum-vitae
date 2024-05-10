@@ -6,18 +6,16 @@
   "main": "src/index.tsx",
   "dependencies": {
     "@ant-design/icons": "4.7.0",
-    "@types/react-dom": "18.0.6",
-    "@types/react-form": "4.0.2",
-    "@types/styled-components": "5.1.26",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-form": "4.0.1",
     "react-scripts": "4.0.3",
     "styled-components": "5.3.5"
   },
   "devDependencies": {
     "@types/react": "17.0.20",
-    "@types/react-dom": "17.0.9",
+    "@types/react-dom": "18.0.6",
+    "@types/react-form": "4.0.2",
+    "@types/styled-components": "5.1.26",
     "typescript": "4.4.2"
   },
   "scripts": {

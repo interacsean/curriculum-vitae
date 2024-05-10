@@ -29,8 +29,8 @@ function EducationItem({ education }: { education: EducationType }) {
 export default function Education({ education }: Props) {
   return (
     <EducationContainer>
-      {education.map((edu) => (
-        <EducationItem education={edu} />
+      {education.map((edu, i) => (
+        <EducationItem key={`${i}-${edu.degree}`} education={edu} />
       ))}
     </EducationContainer>
   );

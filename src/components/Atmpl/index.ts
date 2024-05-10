@@ -1,3 +1,3 @@
-import TMPL from "./TMPL";
+import Tmpl from "./Tmpl";
 
-export default TMPL;
+export default Tmpl;
